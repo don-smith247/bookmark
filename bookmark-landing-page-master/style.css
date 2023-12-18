@@ -1,0 +1,505 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.nav-div{
+    display: flex;
+    justify-content: space-around;
+    margin: 30px;
+}
+.ulll{
+    display: flex;
+    gap: 15px;
+    list-style: none;
+}
+.first-button button{
+    width: 90px;
+    height: 28px;
+    position: absolute;
+    top: 28px;
+    background-color: hsl(0, 94%, 66%);
+    border: none;
+    color: white;
+    border-radius: 5px;
+    box-shadow: 2px 3px 2px rgb(177, 171, 171);
+}
+.first-div{
+    display: flex;
+    justify-content: center;
+    gap: 80px;
+    margin-top: 90px;
+}
+.under-first-div{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    padding-top: 30px;
+}
+.two-button{
+    display: flex;
+    gap: 15px;
+}
+.under-1 button{
+    height: 32px;
+    width: 140px;
+    background-color: rgb(22, 22, 250);
+    border: none;
+    color: white;
+    box-shadow: 2px 3px 2px rgb(170, 169, 169);
+    border-radius: 5px;
+}
+.under-2 button{
+    height: 32px;
+    width: 140px;
+    border: none;
+    box-shadow: 2px 3px 2px rgb(170, 169, 169);
+    border-radius: 5px;
+}
+.simple{
+    font-size: 25px;
+    text-shadow: 2px 4px 3px rgba(0, 0, 0, 0.2);
+}
+.clean{
+    color: gray;
+}
+.Features{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    align-items: center;
+    text-align: center;
+    padding-top: 90px;
+}
+.under-features{
+    display: flex;
+    gap: 20px;
+    color: gray;
+    align-items: center;
+    text-align: center;
+    padding-top: 40px;
+    flex-direction: column;
+}
+.Features p{
+    color: gray;
+}
+.line{
+    color: gray;
+    padding-bottom: 20px;
+}
+.under-3{
+    display: flex;
+    gap: 40px;
+}
+.two-div{
+    display: flex;
+    justify-content: center;
+    gap: 90px;
+    padding: 40px;
+}
+.under-twodiv{
+    padding-top: 70px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+.under-twodiv h1{
+    font-size: 30px;
+    text-shadow: 2px 4px 3px rgba(0, 0, 0, 0.2);
+}
+.under-twodiv p{
+    color: gray;
+}
+.more button{
+    height: 40px;
+    width: 100px;
+    background-color: rgb(22, 22, 250);
+    border: none;
+    border-radius: 5px;
+    color: white;
+    box-shadow: 2px 3px 2px rgb(170, 169, 169);
+}
+.Download{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    padding: 90px;
+    gap: 30px;
+}
+.Download p{
+    color: gray;
+}
+.browser{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+.Chrome{
+    width: 15vw;
+    height: 40vh;
+    box-shadow:  0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+    align-items: center;
+    text-align: center;
+    gap: 10px;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+}
+.Chrome-4{
+    width: 12vw;
+    display: flex;
+    flex-direction: column;
+}
+.Chrome-5 button{
+    height: 35px;
+    width: 180px;
+    background-color: rgb(22, 22, 250);
+    border: none;
+    color: white;
+}
+.Firefox{
+    width: 15vw;
+    height: 40vh;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+    align-items: center;
+    text-align: center;
+    gap: 10px;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    margin-top: 40px;
+}
+.Firefox-4{
+    width: 10vw;
+    display: flex;
+    flex-direction: column;
+}
+.Firefox-5 button{
+    height: 35px;
+    width: 180px;
+    background-color: rgb(22, 22, 250);
+    border: none;
+    color: white;
+}
+.Opera{
+    width: 15vw;
+    height: 40vh;
+    box-shadow:  0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+    align-items: center;
+    text-align: center;
+    gap: 10px;
+    display: flex;
+    flex-direction: column;
+    margin-top: 80px;
+}
+.Opera-4{
+    width: 10vw;
+    display: flex;
+    flex-direction: column;
+}
+.Opera-5 button{
+    height: 35px;
+    width: 180px;
+    background-color: rgb(22, 22, 250);
+    border: none;
+    color: white;
+}
+.Frequently{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 25px;
+    margin-top: 50px;
+}
+.Frequently p{
+    color: gray;
+}
+.Frequently h1{
+    font-size: 25px;
+}
+.Question{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    justify-content: center;
+    margin-top: 50px; 
+    align-items: center; 
+}
+.Question p{
+    color: gray;
+}
+.under-ques{
+    position: relative;
+    left: -150px;
+}
+.under-ques1{
+    position: relative;
+    left: -90px;
+}
+.under-ques2{
+    position: relative;
+    left: -140px;
+}
+.under-ques3{
+    position: relative;
+    left: -70px;
+}
+.p{
+    color: gray;
+}
+.only{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+}
+.only button{
+    height: 35px;
+    width: 80px;
+    background-color: rgb(22, 22, 250);
+    border: none;
+    color: white;
+    border-radius: 5px;
+    box-shadow: 2px 3px 2px rgb(170, 169, 169);
+    margin-bottom: 75px;
+}
+.Stay{
+    width: 100%;
+    height: 35vh;
+    background-color: blue;
+}
+.under-stay{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+    color: white;
+    padding-top: 30px;
+}
+.place{
+    display: flex;
+    gap: 10px;
+}
+.inputt input{
+    height: 35px;
+    width: 210px;
+    border: none;
+    padding-left: 10px;
+    border-radius: 5px;
+}
+.but button{
+    width: 90px;
+    height: 35px;
+    border: none;
+    border-radius: 5px;
+    background-color: hsl(0, 94%, 66%);
+    color: white;
+}
+footer{
+    width: 100%;
+    background-color: hsl(229, 31%, 21%);
+    height: 10vh;
+}
+.fea{
+    display: flex;
+    justify-content: space-evenly;
+    color: white;
+    padding-top: 25px;
+}
+ol{
+    display: flex;
+    gap: 25px;
+    list-style: none;
+    padding-right: 440px;
+}
+.ivon{
+    display: flex;
+    flex-direction: row;
+    gap: 25px;
+}
+.first-back{
+    height: 60vh;
+    width: 50vw;
+    position: absolute;
+    background-color: rgb(23, 23, 252);
+    top: 1050px;
+    background-repeat: no-repeat;
+    z-index: -3;
+    border-bottom-right-radius: 190px;
+    left: 0;
+}
+.second-back{
+    height: 55vh;
+    width: 45vw;
+    position: absolute;
+    background-color: rgb(23, 23, 252);
+    top: 260px;
+    right: 0;
+    background-repeat: no-repeat;
+    z-index: -3;
+    border-bottom-left-radius: 190px;
+}
+.menu{
+    display: none;
+}
+.trace{
+    width: 24px;
+    height: 3px;
+    background-color: blue;
+    margin: 3px;
+}
+.all-ull{
+    display: none;
+}
+ @media screen and (max-width: 950px) {
+    body{
+        overflow-x: hidden;
+    }
+    
+    .all-ull{
+        display: none;
+        flex-direction: column;
+        align-items: center;
+        background-color: blue;
+        color: white;
+        gap: 10px;
+        font-size: 30px;
+        list-style: none;
+        width: 132vw;
+        position: absolute;
+    }
+    .toggle{
+        display: flex;
+    }
+    .rst-button{
+        background-color: blue;
+        border: none;
+        color: white;
+    }
+    .menu{
+        display: block;
+        margin-left: 400px;
+        bottom: 760px;
+        margin-top: -50px;
+    }
+    .trace{
+        right: 30px;
+    }
+    .but button{
+        width: 210px;
+    }
+    .under-features{
+        gap: 10px;
+    }
+    .ulll{
+        display: none;
+    }
+    .Download{
+        width: 500px;
+        padding-right: 110px;
+    }
+    .Features{
+        padding-left: 100px;
+    }
+    .second-back{
+        width: 300px;
+        height: 150px;
+        top: 600px;
+        left: 200px;
+    }
+    .first-back{
+        margin-top: 200px;
+        width: 300px;
+        height: 150px;
+    }
+    .iy img{
+        width: 300px;
+    }
+    .tt img{
+        width: 300px;
+    }
+    .first-div{
+        flex-direction: column;
+        width: 132vw;
+        align-items: center;
+    }
+    .under-first-div{
+        flex-direction: column;
+    }
+    .under-ques{
+        margin-left: 100px;
+    }
+    .under-ques1{
+        margin-left: 100px;
+    }
+    .under-ques2{
+        margin-left: 100px;
+    }
+    .under-ques3{
+        margin-left: 100px;
+    }
+    .Question{
+        width: 132vw;
+        text-align: center;
+    }
+    .p{
+        width: 117vw;
+    }
+    .two-div{
+        flex-direction: column;
+    }
+    .browser{
+        flex-direction: column;
+        align-items: center;
+        width: 132vw;
+    }
+    .Chrome{
+        width: 60vw;
+    }
+    .Firefox{
+        width: 60vw;
+    }
+    .Opera{
+        width: 60vw;
+    }
+    footer{
+        width: 132vw;
+        height: 80vw;
+        align-items: center;
+        padding-left: 30px;
+    }
+    .Frequently p{
+        text-align: center;
+    }
+    .Stay{
+        flex-direction: column;
+        width: 132vw;
+    }
+    .under-first-div{
+        align-items: center;
+        padding-left: 40px;
+        width: 100vw;
+    }
+    .place{
+        flex-direction: column;
+    }
+    .fea{
+        flex-direction: column;
+        gap: 40px;
+    }
+    ol{
+        flex-direction: column;
+    }
+ }
+
+
+
+
+
+
+
+
